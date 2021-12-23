@@ -90,16 +90,17 @@ li {
 }
 
 .header-logo {
-  font-size: 20px;
+  /* font-size: 20px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.2; */
   margin-right: 20px;
-  letter-spacing: .05em;
+  /* letter-spacing: .05em; */
+  max-width: 15%;
 }
 
-.header-logo a {
+/* .header-logo a {
   color: #333;
-}
+} */
 
 .header-nav-list {
   display: flex;
@@ -150,6 +151,10 @@ li {
 
 .main-visual-inner {
   padding: 0 40px;
+}
+
+.maimain-visual-logo{
+  max-width: 100%;
 }
 
 .main-visual-title {
